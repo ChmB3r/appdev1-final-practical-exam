@@ -164,3 +164,30 @@
   color: #0f3dde;
   text-decoration: none;
 }
+
+.title {
+  margin: 0 0 8px;
+  /* keep the rest of your title styles */
+}
+
+.subtitle {
+  margin: 0 0 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forgot {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: #0f3dde;
+  text-decoration: none;
+}

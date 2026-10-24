@@ -8,12 +8,9 @@ export default function Login() {
     <div className={styles.container}>
       <section className={styles.left}>
             <div className={styles.formWrapper}>
-                <h1 className={styles.title}>Get Started Now</h1>
+                <h1 className={styles.title}>Welcome back!</h1>
+                <p className={styles.subtitle}>Enter your Credentials to access your account</p>
                 <form className={styles.form}>
-                    <div className={styles.field}>
-                        <label htmlFor="name" className={styles.label}>Name</label>
-                        <input id="name" type="text" placeholder="Enter your name" className={styles.input} />
-                    </div>
 
                     <div className={styles.field}>
                         <label htmlFor="email" className={styles.label}>Email address</label>
@@ -21,16 +18,18 @@ export default function Login() {
                     </div>
 
                     <div className={styles.field}>
-                        <label htmlFor="password" className={styles.label}>Password</label>
-                        <input id="password" type="password" placeholder="Name" className={styles.input} />
+                        <div className={styles.labelRow}>
+                            <label htmlFor="password" className={styles.label}>Password</label>
+                            <a href="#" className={styles.forgot}>forgot password</a>
+                        </div>
+                        <input id="password" type="password" placeholder="Enter your password" className={styles.input} />
                     </div>
 
                     <label className={styles.checkbox}>
                         <input type="checkbox" />
-                        <span>I agree to the <a href="#" className={styles.terms}>terms &amp; policy</a></span>
-                    </label>
-
-                    <button type="submit" className={styles.button}>Signup</button>
+                        <span>Remember for 30 days</span>
+                        </label>
+                    <button type="submit" className={styles.button}>Login</button>
 
                     <div className={styles.divider}>
                         <span>Or</span>
@@ -48,7 +47,7 @@ export default function Login() {
                         </div>
                         
                         <p className={styles.bottomText}>
-                            Have an account? <a href="#" className={styles.signInLink}>Sign In</a>
+                            Don&apos;t have an account? <a href="#" className={styles.signInLink}>Sign Up</a>
                         </p>
                 </form>
             </div>
