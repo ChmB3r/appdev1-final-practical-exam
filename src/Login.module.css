@@ -1,0 +1,166 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formWrapper {
+  width: 404px;
+}
+
+.title {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.blossom {
+  width: 828px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100vh;
+  object-fit: contain;
+}
+
+
+.title {
+  margin: 0 0 40px;
+  /* keep your existing title styles */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.input {
+  height: 32px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.input::placeholder {
+  color: #b5b5b5;
+  font-size: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #000000;
+}
+
+.terms {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.button {
+  width: 100%;
+  height: 32px;
+  border: 1px solid #3a5b22;
+  border-radius: 10px;
+  background: #3a5b22;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 8px;
+  color: #000000;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.socialButton {
+  flex: 1;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.socialButton img {
+  width: 14px;
+  height: 14px;
+}
+
+.bottomText {
+  margin: 12px 0 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.signInLink {
+  color: #0f3dde;
+  text-decoration: none;
+}
