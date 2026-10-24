@@ -105,3 +105,62 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 8px;
+  color: #000000;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.socialButton {
+  flex: 1;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.socialButton img {
+  width: 14px;
+  height: 14px;
+}
+
+.bottomText {
+  margin: 12px 0 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.signInLink {
+  color: #0f3dde;
+  text-decoration: none;
+}
