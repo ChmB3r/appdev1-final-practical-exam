@@ -1,3 +1,4 @@
+import { Input } from "@/components/ui/input";
 import styles from "./SignUp.module.css";
 import blossom from "./assets/blossom-flower.svg";
 import googleLogo from "./assets/icons-google-logo.svg";
@@ -12,17 +13,17 @@ export default function SignUp() {
                 <form className={styles.form}>
                     <div className={styles.field}>
                         <label htmlFor="name" className={styles.label}>Name</label>
-                        <input id="name" type="text" placeholder="Enter your name" className={styles.input} />
+                        <Input id="name" type="text" placeholder="Enter your name" className={`${styles.input} !h-8 !rounded-[10px]`} />
                     </div>
 
                     <div className={styles.field}>
                         <label htmlFor="email" className={styles.label}>Email address</label>
-                        <input id="email" type="email" placeholder="Enter your email" className={styles.input} />
+                        <Input id="email" type="email" placeholder="Enter your email" className={`${styles.input} !h-8 !rounded-[10px]`} />
                     </div>
 
                     <div className={styles.field}>
                         <label htmlFor="password" className={styles.label}>Password</label>
-                        <input id="password" type="password" placeholder="Name" className={styles.input} />
+                        <Input id="password" type="password" placeholder="Name" className={`${styles.input} !h-8 !rounded-[10px]`} />
                     </div>
 
                     <label className={styles.checkbox}>
@@ -46,7 +47,7 @@ export default function SignUp() {
                             <span>Sign in with Apple</span>
                         </button>
                         </div>
-                        
+
                         <p className={styles.bottomText}>
                             Have an account? <a href="#" className={styles.signInLink}>Sign In</a>
                         </p>
