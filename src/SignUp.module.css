@@ -38,3 +38,70 @@
   max-height: 100vh;
   object-fit: contain;
 }
+
+
+.title {
+  margin: 0 0 40px;
+  /* keep your existing title styles */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.input {
+  height: 32px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.input::placeholder {
+  color: #b5b5b5;
+  font-size: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #000000;
+}
+
+.terms {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.button {
+  width: 100%;
+  height: 32px;
+  border: 1px solid #3a5b22;
+  border-radius: 10px;
+  background: #3a5b22;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
