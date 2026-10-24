@@ -5,7 +5,9 @@ export default function SignUp() {
   return (
     <div className={styles.container}>
       <section className={styles.left}>
-        {/* left section intentionally empty for now */}
+            <div className={styles.formWrapper}>
+                <h1 className={styles.title}>Get Started Now</h1>
+            </div>
       </section>
 
       <section className={styles.right}>
